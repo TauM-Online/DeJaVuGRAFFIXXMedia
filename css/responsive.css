@@ -919,6 +919,14 @@
 /* global style */
 @media screen and (max-width: 270px) {
 
+    .hero {
+    background-image: url('../');
+    background-size: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 172px 0 279px 0;
+}
+       
     .hero h1 {
         text-align: center;
         align-items: center;
@@ -1047,10 +1055,19 @@
         flex-direction: row;
     }
 
+    
+    .pricing-card div .flex-col  {
+        width: 100%;
+        align-items: right !important;
+        justify-content: right;
+    }
+    
+    }
 
     .pricing-card div {
         width: 32%;
     }
+
 
     .work-line {
         width: 90%;

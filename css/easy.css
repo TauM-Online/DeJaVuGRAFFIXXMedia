@@ -28,9 +28,10 @@
 
 .flex-col {
     flex-direction: column !important;
+    width: 100%;
 }
-
-.flex-right {
+.pricing-card .flex-col  {
+    width: 100%;
     align-items: right !important;
     justify-content: right;
 }
